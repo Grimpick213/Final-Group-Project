@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#header{
+    height:100vh;
+    background-image: url('../img/pizzabg.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+}
+
+header{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav{
+    display: flex;
+    flex: 1 1 600px;
+    justify-content: flex-end;
+    margin-right: 40px;   
+}
+
+header nav a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+}
+
+header.logo{
+    width: 150px;
+    height: 150px;
+    flex: 0 1 150px;
+}
+
+header.logo.img{
+    height: inherit;
+    width: inherit;
+    background-color: none;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.main h1{
+    font-size: 4em;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.main h2{
+    font-size: 2.75em;
+    color: green;
+    padding-bottom: 5px;
+}
+
+
+.button{
+    width: 250px;
+    padding: 15px 15px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    margin-top: 40px;
+    color: yellow;
+    text-decoration: none;
+    background-color: green;
+}
+
+.button:hover{
+    background-color: red;
+    border-color: red;
+
+}
+
+.main-order{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-order h1{
+    font-size: 4em;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.main-order h2{
+    font-size: 2em;
+    color: yellow;
+    padding-bottom: 5px;
+}
+
+.section-header {
+    font-family: "Arial";
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 2.5em;
+    padding-top: 20px;
+}
+
+.container{
+    padding: 20px;
+    display: flex;
+    
+}
+
+.pizzas{
+    display: flex;
+    padding: 20px;
+   
+}
+.item-title {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.image {
+    height: 250px;
+    width: 350px;
+    
+}
+
+.item-details {
+    text-align: center;
+    padding: 5px;
+}
+
+.item-price {
+    flex-grow: 1;
+    color: black;
+}
+
+
+.item {
+    margin: 30px;
+}
